@@ -175,14 +175,14 @@
 /* ++++++++++++++++++++ */
 
 :root {
-  --primary-color: #d43030;
-  --primary-dark: #c73d3d;
-  --primary-darker: #d42f2f;
+  --primary-color: #0051ff;
+  --primary-dark: #ffffff;
+  --primary-darker: #ffffff;
   --text-color: #ffffff;
-  --text-muted: #aaaaaa;
+  --text-muted: #ffffff;
   --text-light: #cccccc;
-  --text-lighter: #999999;
-  --bg-dark: #111111;
+  --text-lighter: #ffffff;
+  --bg-dark: #001aff;
 }
 
 body {
@@ -1088,7 +1088,7 @@ body.nav-active .nav__list-item:nth-child(10) {
 .btn-special {
   position: relative;
   padding: 32px 60px;
-  background: #ff0000;
+  background: #ffffff;
   border: none;
   cursor: pointer;
   overflow: hidden;
@@ -1108,7 +1108,7 @@ body.nav-active .nav__list-item:nth-child(10) {
 .btn-special .original-text {
   position: relative;
   display: block;
-  color: white;
+  color: rgb(17, 0, 255);
   font-weight: bold;
   transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
   z-index: 2;
