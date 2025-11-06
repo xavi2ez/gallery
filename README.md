@@ -12,10 +12,6 @@ Add a project
 
 Create a folder under projects/ with a thumbnail (thumbnail.jpg/png) and an index.html or README.md with details.
 
-License
-
-MIT (add a LICENSE file to apply)
-
 Contact
 
 https://github.com/xavi2ez
