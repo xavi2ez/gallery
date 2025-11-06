@@ -21,9 +21,9 @@
   --bs-primary-dark: #000000;
   --bs-secondary: #3F91FC;
   --bs-black: #111;
-  --bs-light: #F1F1F0;
+  --bs-light: #ffffff;
   --bs-dark: #212529;
-  --bs-gray: #949494;
+  --bs-gray: #ffffff;
   --bs-gray-dark: #51565b;
 
   --bs-primary-rgb: 255, 83, 74;
@@ -140,8 +140,13 @@
 
 /* form control */
 .form-control:focus {
-  border-color: #ccc;
+  border-color: #ffffff;
   box-shadow: 0 0 0 0.25rem rgba(200, 200, 200, .25);
+  color: #000;
+}
+
+.form-control{
+ color: #000;
 }
 
 /* dark theme */
@@ -150,7 +155,7 @@
 
   --heading-color: #fff;
   --bs-heading-color: #fff;
-  --bs-link-color: #CCCCCC;
+  --bs-link-color: #ffffff;
   --bs-link-hover-color: var(--bs-primary);
   --bs-link-color-rgb: 204, 204, 204;
   --bs-link-hover-color-rgb: 131, 169, 172;
@@ -175,12 +180,12 @@
 /* ++++++++++++++++++++ */
 
 :root {
-  --primary-color: #0051ff;
+  --primary-color: #00d9ff;
   --primary-dark: #ffffff;
   --primary-darker: #ffffff;
   --text-color: #ffffff;
   --text-muted: #ffffff;
-  --text-light: #cccccc;
+  --text-light: #ffffff;
   --text-lighter: #ffffff;
   --bg-dark: #001aff;
 }
@@ -194,7 +199,7 @@ body {
 }
 
 .logo {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Old English Five', sans-serif;
   font-weight: 900;
   font-size: 44px;
   letter-spacing: -2.2px;
@@ -311,6 +316,13 @@ body {
   height: 100px;
   background-color: var(--text-color);
   margin: 20px 0;
+}
+
+@font-face {
+  font-family: 'Old English Five';
+  src: url('fonts/OldEnglish.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 .job-title {
